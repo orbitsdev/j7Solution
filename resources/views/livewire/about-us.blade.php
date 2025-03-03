@@ -25,9 +25,9 @@
     <!-- Right Years of Experience -->
     <div class="flex items-center justify-center bg-white">
         <div class="text-center">
-            <h1 class="text-7xl font-bold text-blue-900">10</h1>
-            <p class="text-3xl font-semibold text-blue-600">Years</p>
-            <p class="text-gray-500 text-lg">Of Successful work in the market</p>
+            <h1 class="text-9xl font-bold text-blue-900">10</h1>
+            <p class="text-6xl font-semibold text-[#0F487F]">Years</p>
+            <p class="text-gray-500 text-2xl">Of Successful work in the market</p>
         </div>
     </div>
 </div>

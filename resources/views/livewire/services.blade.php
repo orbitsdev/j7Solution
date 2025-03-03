@@ -34,41 +34,51 @@
     </div>
 
     <!-- Grid for Four Services (Below Image & Description) -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-        <!-- Planning -->
-        <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md">
-            <i class="fas fa-tasks text-4xl text-blue-900"></i>
-            <h4 class="text-lg font-semibold text-blue-900 mt-2">Planning</h4>
+   <!-- Services Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2  gap-28 mt-12">
+    <!-- Planning -->
+    <div class="flex items-start space-x-4">
+        <i class="fas fa-tasks text-4xl text-blue-900"></i>
+        <div>
+            <h4 class="text-lg font-semibold text-blue-900">Planning</h4>
             <p class="text-gray-600 text-sm mt-2">
                 Defining project goals, gathering requirements, and outlining the scope, timeline, and resources needed for development.
             </p>
         </div>
+    </div>
 
-        <!-- Design & Development -->
-        <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md">
-            <i class="fas fa-laptop-code text-4xl text-blue-900"></i>
-            <h4 class="text-lg font-semibold text-blue-900 mt-2">Design & Development</h4>
+    <!-- Design & Development -->
+    <div class="flex items-start space-x-4">
+        <i class="fas fa-laptop-code text-4xl text-blue-900"></i>
+        <div>
+            <h4 class="text-lg font-semibold text-blue-900">Design & Development</h4>
             <p class="text-gray-600 text-sm mt-2">
                 Creating system architecture, UI/UX design, and coding the software to meet functional and technical requirements.
             </p>
         </div>
+    </div>
 
-        <!-- Testing & Implementation -->
-        <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md">
-            <i class="fas fa-cogs text-4xl text-blue-900"></i>
-            <h4 class="text-lg font-semibold text-blue-900 mt-2">Testing & Implementation</h4>
+    <!-- Testing & Implementation -->
+    <div class="flex items-start space-x-4">
+        <i class="fas fa-cogs text-4xl text-blue-900"></i>
+        <div>
+            <h4 class="text-lg font-semibold text-blue-900">Testing & Implementation</h4>
             <p class="text-gray-600 text-sm mt-2">
                 Conducting quality assurance, debugging, and deploying the system to ensure functionality, security, and performance.
             </p>
         </div>
+    </div>
 
-        <!-- Maintenance & Support -->
-        <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md">
-            <i class="fas fa-tools text-4xl text-blue-900"></i>
-            <h4 class="text-lg font-semibold text-blue-900 mt-2">Maintenance & Support</h4>
+    <!-- Maintenance & Support -->
+    <div class="flex items-start space-x-4">
+        <i class="fas fa-tools text-4xl text-blue-900"></i>
+        <div>
+            <h4 class="text-lg font-semibold text-blue-900">Maintenance & Support</h4>
             <p class="text-gray-600 text-sm mt-2">
                 Providing updates, troubleshooting, and optimizing the system for long-term efficiency and reliability.
             </p>
         </div>
     </div>
+</div>
+
 </div>
