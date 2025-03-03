@@ -1,4 +1,4 @@
-<div class="bg-gray-100 text-gray-900">
+<div class="bg-white text-gray-900">
     <livewire:navbar />
     <livewire:hero-section />
     <livewire:about-us />
@@ -7,6 +7,6 @@
     <livewire:contact-form />
     <livewire:footer />
 
-    
+
 
 </div>
