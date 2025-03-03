@@ -7,7 +7,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/lading-page', LandingPage::class)->name('lading-page');
+Route::get('/landing-page', LandingPage::class)->name('lading-page');
 
 Route::middleware([
     'auth:sanctum',

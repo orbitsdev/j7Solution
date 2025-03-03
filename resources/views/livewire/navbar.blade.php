@@ -1,5 +1,6 @@
 {{-- <div class="bg-blue-900 text-white py-4 shadow-md"> --}}
-<div class="sticky top-0 right-0 left-0 bg-blue-900  text-white py-4 shadow-md z-50">
+<div class="sticky top-0 right-0 left-0 bg-blue-900 text-white py-4 z-50
+transition-all duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] shadow-md" id="navbar">
     <div class="container mx-auto flex justify-between items-center px-6">
         {{-- <div class="flex items-center space-x-4">
             <img src="{{ asset('logo.png') }}" alt="J7 IT Solution" class="h-8">

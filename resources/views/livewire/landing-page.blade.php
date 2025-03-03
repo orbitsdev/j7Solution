@@ -6,4 +6,7 @@
     <livewire:projects />
     <livewire:contact-form />
     <livewire:footer />
+
+    
+
 </div>
