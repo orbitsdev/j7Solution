@@ -6,6 +6,10 @@
     <livewire:multimedia-services />
     <livewire:projects />
     <livewire:contact-form />
+    <div class="box">
+
+    </div>
+    
     <livewire:footer />
 
 

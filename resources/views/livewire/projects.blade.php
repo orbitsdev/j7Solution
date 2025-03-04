@@ -1,4 +1,4 @@
-<div class="container mx-auto my-20 px-6 lg:px-24">
+<div class="container mx-auto my-20 px-6 lg:px-24 relative">
     <!-- Section Title Positioned Higher -->
     <div class="mb-12">
         <h2 class="text-5xl font-extrabold text-blue-900">Our Projects</h2>
@@ -8,7 +8,7 @@
     </div>
 
     <!-- Swiper Container with Left-Aligned Text & Dark Overlay -->
-    <div class="swiper mySwiper w-full max-w-7xl mx-auto">
+    <div class="swiper mySwiper w-full max-w-7xl mx-auto ">
         <div class="swiper-wrapper">
             <!-- Project 1 -->
             <div class="swiper-slide relative rounded-xl overflow-hidden shadow-xl">
