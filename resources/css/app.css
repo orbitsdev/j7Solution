@@ -5,3 +5,8 @@
 [x-cloak] {
     display: none;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none !important; /* 💯 Completely hides the buttons */
+}

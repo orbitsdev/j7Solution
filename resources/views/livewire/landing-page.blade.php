@@ -3,6 +3,7 @@
     <livewire:hero-section />
     <livewire:about-us />
     <livewire:services />
+    <livewire:multimedia-services />
     <livewire:projects />
     <livewire:contact-form />
     <livewire:footer />
