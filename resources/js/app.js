@@ -1,40 +1,28 @@
 import './bootstrap';
-
-
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
-// Initialize Swiper
-
+// Ensure Swiper initializes correctly
 document.addEventListener("DOMContentLoaded", function () {
     new Swiper(".mySwiper", {
         loop: true,
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: {
-            delay: 3000,
+            delay: 4000,
             disableOnInteraction: false,
+        },
+        effect: "coverflow", // More engaging effect
+        coverflowEffect: {
+            rotate: 30,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: true,
         },
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
-        },
-        // ❌ Remove navigation completely
-        // navigation: {
-        //     nextEl: ".swiper-button-next",
-        //     prevEl: ".swiper-button-prev",
-        //     disabledClass: 'disabled_swiper_button'
-        // },
-
-        effect: "creative",
-        creativeEffect: {
-            prev: {
-              shadow: true,
-              translate: [0, 0, -400],
-            },
-            next: {
-              translate: ["100%", 0, 0],
-            },
         },
     });
 });
