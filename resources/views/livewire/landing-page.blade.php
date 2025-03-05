@@ -4,6 +4,7 @@
     <livewire:about-us />
     <livewire:services />
     <livewire:multimedia-services />
+    <livewire:system-integration />
     <livewire:projects />
     <livewire:contact-form />
     <div class="box">

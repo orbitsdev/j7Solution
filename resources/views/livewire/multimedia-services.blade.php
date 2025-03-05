@@ -7,7 +7,7 @@
     </div>
 
     <!-- Two-Column Grid for Image & Content -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <div class=" grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Left Side: Image -->
         <div class="multimedia-image">
             <img src="https://picsum.photos/600/400?random=10"

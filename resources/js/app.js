@@ -105,6 +105,23 @@ document.addEventListener("DOMContentLoaded", function () {
     .from(".projects h2", { y: 20, opacity: 0, duration: 1, ease: "power3.out" })
     .from(".projects .swiper-slide", { scale: 0.95, opacity: 0, duration: 1, stagger: 0.3, ease: "power3.out" }, "-=0.8");
 
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: ".system-integration",
+            start: "top 85%",
+            endTrigger: ".projects",
+            end: "top 50%",
+            toggleActions: "play none none reverse",
+        }
+    })
+    .from(".system-integration h3", { x: -15, opacity: 0, duration: 0.6, ease: "power3.out" })
+    .from(".system-integration h2", { y: 15, opacity: 0, duration: 0.8, ease: "power3.out" }, "-=0.4")
+    .from(".system-integration p", { opacity: 0, y: 10, duration: 0.6, stagger: 0.2, ease: "power3.out" }, "-=0.6")
+    .from(".integration-images img", { scale: 0.98, opacity: 0, duration: 0.8, ease: "power3.out" }, "-=0.6") // FIXED
+    .from(".we-focus", { y: 20, opacity: 0, duration: 0.6, ease: "power3.out" }, "-=0.5")
+    .from(".integration-cards > div", { x: 20, opacity: 0, duration: 0.8, stagger: 0.2, ease: "power3.out" }, "-=0.4");
+
+
     /** ✅ CONTACT FORM (Encouraging engagement) **/
     gsap.timeline({
         scrollTrigger: {

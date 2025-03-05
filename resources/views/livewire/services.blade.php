@@ -5,7 +5,7 @@
             Our Services
         </h3>
         <h2 class="text-3xl md:text-5xl font-extrabold text-blue-900 leading-snug">
-            System Development
+            Software Development
         </h2>
     </div>
 
