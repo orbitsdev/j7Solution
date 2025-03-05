@@ -1,4 +1,4 @@
-<div class="container mx-auto my-16 px-6 max-w-3xl ">
+<div id="contact" class="contact-form container mx-auto my-16 px-6 max-w-3xl ">
     <!-- Section Title -->
     <h2 class="text-lg text-blue-700 text-center font-semibold uppercase tracking-wide">
         Contact Us
@@ -52,5 +52,5 @@
         </div>
     </form>
 
-    
+
 </div>

@@ -1,4 +1,4 @@
-<div class="container mx-auto my-20 px-6 lg:px-24">
+<div class="multimedia-services container mx-auto my-20 px-6 lg:px-24">
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl md:text-5xl font-extrabold text-blue-900">
@@ -9,7 +9,7 @@
     <!-- Two-Column Grid for Image & Content -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Left Side: Image -->
-        <div>
+        <div class="multimedia-image">
             <img src="https://picsum.photos/600/400?random=10"
                 class="w-full h-[400px] object-cover rounded-xl shadow-lg"
                 alt="Multimedia Services">
@@ -34,7 +34,7 @@
     </div>
 
     <!-- Services Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
+    <div class="multi-cards grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
         <!-- Graphic Design -->
         {{-- <div class="bg-white p-8 rounded-xl shadow-lg flex flex-col items-start space-y-3"> --}}
         <div class="bg-white p-8 rounded-xl border hover:shadow-sm hover:bg-gray-50 transition-all cursor-pointer flex flex-col items-start space-y-3">
@@ -57,7 +57,7 @@
 
         <!-- Video Production -->
         {{-- <div class="bg-white p-8 rounded-xl shadow-lg flex flex-col items-start space-y-3"> --}}
-        <div class="bg-white p-8 rounded-xl border hover:shadow-sm hover:bg-gray-50 transition-all cursor-pointer flex flex-col items-start space-y-3">
+        <div class="multi-content bg-white p-8 rounded-xl border hover:shadow-sm hover:bg-gray-50 transition-all cursor-pointer flex flex-col items-start space-y-3">
             <div class="text-blue-900 text-4xl">📹</div>
             <h4 class="text-xl font-bold text-blue-900">Video Production</h4>
             <p class="text-gray-700 text-lg leading-relaxed">

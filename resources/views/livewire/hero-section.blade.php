@@ -1,5 +1,5 @@
 <!-- Hero Section -->
-<div class="relative bg-cover bg-center h-screen min-h-[600px] flex items-center" style="background-image: url('{{ asset('images/bg1.jpg') }}');">
+<div id="hero" class="hero-section relative bg-cover bg-center h-screen min-h-[600px] flex items-center" style="background-image: url('{{ asset('images/bg1.jpg') }}');">
     <!-- Darker Overlay for Readability -->
     <div class="absolute inset-0 bg-gradient-to-r from-[#012a63] to-[#02458d] opacity-90 hero-overlay"></div>
 

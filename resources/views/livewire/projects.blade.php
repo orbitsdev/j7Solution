@@ -1,4 +1,4 @@
-<div class="container mx-auto my-20 px-6 lg:px-24 relative">
+<div id="projects" class="projects container mx-auto my-20 px-6 lg:px-24 relative">
     <!-- Section Title Positioned Higher -->
     <div class="mb-12">
         <h2 class="text-5xl font-extrabold text-blue-900">Our Projects</h2>

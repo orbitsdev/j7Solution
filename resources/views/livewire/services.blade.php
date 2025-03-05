@@ -1,4 +1,4 @@
-<div class="container mx-auto py-20 px-6 lg:px-24 bg-white">
+<div id="services" class="services container mx-auto py-20 px-6 lg:px-24 bg-white">
     <!-- Title Section -->
     <div class="text-center mb-12">
         <h3 class="text-blue-600 text-lg font-semibold tracking-wide uppercase">
@@ -12,7 +12,7 @@
     <!-- Two-Column Grid for Image & Content -->
     <div class="grid md:grid-cols-2 gap-12 items-center">
         <!-- Left - Image -->
-        <div>
+        <div class="service-imgae">
             <img src="{{ asset('images/bg2.png') }}" alt="System Development" class="rounded-xl shadow-lg w-full">
         </div>
 
@@ -26,7 +26,7 @@
             </p>
 
             <!-- Blue Box Highlight -->
-            <div class="bg-gradient-to-r from-blue-900 to-blue-500 text-white p-6 rounded-xl shadow-xl">
+            <div class="we-focus bg-gradient-to-r from-blue-900 to-blue-500 text-white p-6 rounded-xl shadow-xl">
                 <p class="text-2xl md:text-3xl font-semibold leading-snug">
                     We focus on the problem, the question, and the solution. And we always think ahead.
                 </p>
@@ -35,7 +35,7 @@
     </div>
 
     <!-- Services Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-16 mt-16">
+    <div class="cards grid grid-cols-1 md:grid-cols-2 gap-16 mt-16">
         <!-- Planning -->
         <div class="flex items-start gap-6">
             <i class="fas fa-tasks text-5xl text-blue-900"></i>

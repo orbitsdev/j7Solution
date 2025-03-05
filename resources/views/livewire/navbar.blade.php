@@ -10,8 +10,8 @@
 
         <!-- Navigation Links -->
         <nav class="hidden md:flex space-x-6">
-            <a href="#" class="nav-link active">Home</a>
-            <a href="#about" class="nav-link">About Us</a>
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#about-us" class="nav-link">About Us</a>
             <a href="#services" class="nav-link">Services</a>
             <a href="#projects" class="nav-link">Projects</a>
             <a href="#contact" class="nav-link">Contact</a>

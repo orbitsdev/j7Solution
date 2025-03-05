@@ -1,4 +1,4 @@
-<div class="grid grid-cols-1 md:grid-cols-2 min-h-screen gap-6 about-section">
+<div id="about-us" class="about-section grid grid-cols-1 md:grid-cols-2 min-h-screen gap-6 about-section">
     <!-- Left Content -->
     <div class="bg-blue-50 flex items-center p-10 md:p-20">
         <div class="max-w-2xl space-y-6">
@@ -25,7 +25,7 @@
     </div>
 
     <!-- Right: Years of Experience -->
-    <div class="flex items-center justify-center bg-white p-10 about-years-container">
+    <div class="about-years-container flex items-center justify-center bg-white p-10 about-years-container">
         <div class="text-center">
             <h1 class="text-7xl md:text-8xl font-extrabold text-blue-900 about-years">
                 10
