@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             toggleActions: "play reverse play none",
         }
     })
-    .from(".hero-overlay", { opacity: 0, scale: 1.02, duration: 1, ease: "power3.out" })
+    .from(".hero-overlay", { opacity: 0,  duration: 1, ease: "power3.out" })
     .from(".hero-title", { y: 20, opacity: 0, duration: 1, ease: "power3.out" }, "-=0.6")
     .from(".hero-subtext", { opacity: 0, y: 10, duration: 0.8, ease: "power3.out" }, "-=0.6")
     .from(".hero-feature", { x: -15, opacity: 0, duration: 0.8, stagger: 0.2, ease: "power3.out" }, "-=0.5")

@@ -8,8 +8,8 @@
     </div>
 
     <!-- Swiper Container with Left-Aligned Text & Dark Overlay -->
-    <div class="swiper mySwiper w-full max-w-7xl mx-auto ">
-        <div class="swiper-wrapper">
+    <div class="swiper mySwiper aspect-video max-h-[580px] max-w-4xl relative mx-auto ">
+        <div class="swiper-wrapper w-full h-full">
             <!-- Project 1 -->
             <div class="swiper-slide relative rounded-xl overflow-hidden shadow-xl">
                 <img src="https://picsum.photos/1200/600?random=1" class="w-full h-[500px] object-cover">
