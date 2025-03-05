@@ -6,6 +6,11 @@
     display: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .swiper-button-next,
 .swiper-button-prev {
     display: none !important; /* 💯 Completely hides the buttons */
