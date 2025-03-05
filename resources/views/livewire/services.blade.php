@@ -12,7 +12,7 @@
     <!-- Two-Column Grid for Image & Content -->
     <div class="grid md:grid-cols-2 gap-12 items-center">
         <!-- Left - Image -->
-        <div class="service-imgae">
+        <div class="service-image">
             <img src="{{ asset('images/bg2.png') }}" alt="System Development" class="rounded-xl shadow-lg w-full">
         </div>
 
