@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\LandingPage;
+use App\Livewire\ProjectsPage;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -8,6 +9,7 @@ Route::get('/', function () {
 });
 
 Route::get('/landing-page', LandingPage::class)->name('lading-page');
+Route::get('/projects', ProjectsPage::class)->name('projects');
 
 Route::middleware([
     'auth:sanctum',

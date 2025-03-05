@@ -75,8 +75,8 @@
 
     <!-- View All Projects Button -->
     <div class="text-center mt-12">
-        <button class="px-8 py-3 bg-blue-900 text-white text-lg font-semibold rounded-full shadow-md hover:bg-blue-700 transition">
+        <a href="{{route('projects')}}" class="px-8 py-3 bg-blue-900 text-white text-lg font-semibold rounded-full shadow-md hover:bg-blue-700 transition">
             View All Projects
-        </button>
+        </a>
     </div>
 </div>
