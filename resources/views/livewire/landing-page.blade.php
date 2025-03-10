@@ -6,6 +6,7 @@
     <livewire:multimedia-services />
     <livewire:system-integration />
     <livewire:projects />
+    <livewire:testimonials-page />
     <livewire:contact-form />
     <div class="box">
 

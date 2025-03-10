@@ -26,7 +26,7 @@
             </p>
 
             <!-- Blue Box Highlight -->
-            <div class="we-focus bg-gradient-to-r from-blue-900 to-blue-500 text-white p-6 rounded-xl shadow-xl">
+            <div class="services-we-focus bg-gradient-to-r from-blue-900 to-blue-500 text-white p-6 rounded-xl shadow-xl">
                 <p class="text-2xl md:text-3xl font-semibold leading-snug">
                     We focus on the problem, the question, and the solution. And we always think ahead.
                 </p>

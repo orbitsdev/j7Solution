@@ -72,7 +72,7 @@ gsap.timeline({
 .from(".services h2", { y: 15, opacity: 0, duration: 0.8, ease: "power2.out" }, "-=0.2")
 .from(".services p", { opacity: 0, y: 15, duration: 0.4, stagger: 0.1, ease: "power2.out" }, "-=0.3")
 .from(".service-images", { scale: 0.99, opacity: 0, duration: 0.8, ease: "power2.out" }, "-=0.3")
-.from(".we-focus", { y: 20, opacity: 0, duration: 0.4, ease: "power2.out" }, "-=0.3")
+.from(".services-we-focus", { y: 20, opacity: 0, duration: 0.4, ease: "power2.out" }, "-=0.3")
 .from(".cards > div", { y: 20, opacity: 0, duration: 0.8, stagger: 0.1, ease: "power2.out" }, "-=0.3");
 
 /** ✅ SYSTEM INTEGRATION SECTION (Smoother downward movement) **/
